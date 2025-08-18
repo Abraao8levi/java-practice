@@ -161,22 +161,3 @@ Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](L
 
 ---
 
-## 🙋‍♂️ **Suporte & Contato**
-
-<div align="center">
-
-| **Canal** | **Link** |
-|-----------|----------|
-| 📧 **Email** | seu-email@exemplo.com |
-| 💼 **LinkedIn** | [Seu Perfil](https://linkedin.com/in/seu-perfil) |
-| 🐙 **GitHub** | [Seu GitHub](https://github.com/seu-usuario) |
-
-</div>
-
----
-
-<div align="center">
-
-### ⭐ **Se este repositório foi útil, considere dar uma estrela!**
-
-</div>
