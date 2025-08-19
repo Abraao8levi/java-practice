@@ -117,6 +117,44 @@ javac *.java && java Main
 ```
 **Conceitos:** Parsers, Expressões, Design Patterns
 
+### 🧪 **Teste 1 - Projeto POO**
+```java
+📁 Teste1/
+└── ProjetoPOO.java    // Sistema completo de POO
+```
+**Conceitos:** Programação Orientada a Objetos, Herança, Polimorfismo, Encapsulamento
+
+### 🎯 **SOLID - Princípios de Design**
+```java
+📁 solid/
+├── Main.java                    // Aplicação principal
+├── domain/
+│   ├── Order.java              // Modelo de pedido
+│   ├── OrderItem.java          // Item do pedido
+│   ├── Product.java            // Modelo de produto
+│   └── Custom.java             // Cliente
+├── payment/
+│   ├── PaymentProcessor.java   // Interface de pagamento
+│   ├── CreditCardPaymentProcessor.java
+│   ├── PixPaymentProcessor.java
+│   └── PaymentDetails.java     // Detalhes do pagamento
+├── pricing/
+│   ├── DiscountPolicy.java     // Interface de desconto
+│   ├── NoDiscount.java         // Sem desconto
+│   └── SeasonalDiscount.java   // Desconto sazonal
+├── notify/
+│   ├── MessageSender.java      // Interface de notificação
+│   ├── EmailNotifier.java      // Notificação por email
+│   ├── SmsNotifier.java        // Notificação por SMS
+│   └── ReceiptSender.java      // Envio de recibos
+├── repo/
+│   ├── OrderRepository.java    // Interface do repositório
+│   └── InMemoryOrderRepository.java
+└── service/
+    └── CheckoutService.java    // Serviço de checkout
+```
+**Conceitos:** Princípios SOLID, Clean Architecture, Dependency Inversion, Open/Closed Principle
+
 ---
 
 ## 🧪 Testes & Qualidade
