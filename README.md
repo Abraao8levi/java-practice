@@ -1,14 +1,12 @@
 <div align="center">
 
-# 🚀 Java Practice Repository
+# 🚀 Repositório de Práticas em Java
 
 [![Java](https://img.shields.io/badge/Java-17+-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
 
-### 📚 Repositório de Exercícios Java - Do Básico ao Avançado
-
-**Domine Java através de prática estruturada e projetos reais**
+### 📚 Do Básico ao Avançado: Domine Java com Projetos Práticos e Estruturados
 
 </div>
 
@@ -16,186 +14,163 @@
 
 ## 📊 Visão Geral
 
-<div align="center">
+Este repositório é uma coleção organizada de exercícios em Java, projetada para aprimorar suas habilidades de forma progressiva. Cada projeto é uma aplicação autocontida que demonstra conceitos fundamentais e avançados da linguagem e do ecossistema Java.
 
-| 🏗️ **Total de Exercícios** | 📈 **Nível de Dificuldade** | 🎯 **Conceitos Abordados** |
+| 🏗️ **Total de Projetos** | 📈 **Nível de Dificuldade** | 🎯 **Principais Conceitos** |
 |:-------------------------:|:---------------------------:|:-------------------------:|
-| **5+** | 🟢 Iniciante → 🔴 Avançado | **OOP, Design Patterns, Clean Code** |
-
-</div>
-
-Este repositório é uma coleção cuidadosamente estruturada de exercícios Java, projetada para desenvolver habilidades progressivamente. Cada exercício é uma aplicação completa que demonstra conceitos fundamentais e avançados da linguagem Java.
+| **7+ (e crescendo!)** | 🟢 Iniciante → 🔴 Avançado | **OOP, SOLID, Design Patterns, Clean Code** |
 
 ---
 
 ## 🎯 Objetivos de Aprendizagem
 
-### 🥇 **Fundamentos**
-- ✅ Programação Orientada a Objetos (OOP)
-- ✅ Princípios SOLID
-- ✅ Clean Code & Best Practices
-- ✅ Design Patterns Essenciais
-
-### 🥈 **Avançado**
-- ✅ Arquitetura de Software
-- ✅ Testes Unitários & Integração
-- ✅ Java Collections Framework
-- ✅ Exception Handling Avançado
+-   ✅ **Programação Orientada a Objetos (OOP):** Encapsulamento, Herança, Polimorfismo e Abstração.
+-   ✅ **Princípios de Design:** Aplicação prática dos princípios **SOLID**.
+-   ✅ **Boas Práticas:** Clean Code, organização de pacotes e padrões de nomenclatura.
+-   ✅ **Padrões de Projeto (Design Patterns):** Soluções elegantes para problemas comuns.
+-   ✅ **Estruturas de Dados:** Uso eficiente de `Collections` e `Enums`.
+-   ✅ **Tratamento de Exceções:** Implementação de lógica de validação e tratamento de erros.
 
 ---
 
-## 🚀 Começando
+## 🚀 Como Começar
 
-### 📋 **Pré-requisitos**
+### 📋 Pré-requisitos
 
-| Ferramenta | Versão Mínima | Instalação |
-|------------|---------------|------------|
-| ![Java](https://img.shields.io/badge/Java-JDK_17+-blue) | 17+ | [Download JDK](https://adoptium.net/) |
-| ![Git](https://img.shields.io/badge/Git-2.x-purple) | 2.x+ | [Download Git](https://git-scm.com/) |
-| ![IDE](https://img.shields.io/badge/IDE-Any-green) | - | IntelliJ IDEA / Eclipse / VS Code |
+| Ferramenta | Versão Mínima | Onde Baixar |
+|:--- |:--- |:--- |
+| ☕ **Java JDK** | 17+ | [Adoptium (Temurin)](https://adoptium.net/) |
+| 🌿 **Git** | 2.x+ | [Download Git](https://git-scm.com/) |
+| 💻 **IDE** | Opcional | IntelliJ IDEA / Eclipse / VS Code |
 
-### ⚡ **Instalação Rápida**
+### ⚡ Instalação e Execução
 
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/java-practice.git
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/java-practice.git](https://github.com/seu-usuario/java-practice.git)
+    cd java-practice
+    ```
 
-# Entre no diretório
-cd java-practice
+2.  **Navegue até um exercício:**
+    ```bash
+    cd exercicio-01-funcionarios
+    ```
 
-# Compile qualquer exercício
-cd Exercicio1
-javac *.java && java Main
-```
-
----
-
-## 📚 Estrutura de Exercícios
-
-### 🏢 **Exercício 1 - Sistema de Gerenciamento de Funcionários**
-```java
-📁 Exercicio1/
-├── Departamento.java    // Gestão de departamentos
-├── Empregado.java       // Modelo de funcionário
-└── Main.java           // Aplicação principal
-```
-**Conceitos:** Encapsulamento, Herança, Polimorfismo
-
-### 🚗 **Exercicio 2 - Sistema de Gerenciamento de Veículos**
-```java
-📁 Exercicio2/
-├── Carro.java         // Classe base para veículos
-├── Carro1.java        // Implementação específica
-└── Testes            // Validações de negócio
-```
-**Conceitos:** Abstração, Interfaces, Composição
-
-### 🏍️ **Exercicio 3 - Sistema de Motocicletas**
-```java
-📁 Exercicio3/
-├── Motorcycle.java    // Gestão de motocicletas
-├── Person.java        // Modelo de pessoa
-└── Main.java          // Simulação de uso
-```
-**Conceitos:** Agregação, Validações, Regras de Negócio
-
-### 🛒 **Exercicio 4 - Sistema de E-commerce**
-```java
-📁 Exercicio4/
-├── Pedido.java        // Gestão de pedidos
-├── Produto.java       // Catálogo de produtos
-├── ItemPedido.java    // Itens do pedido
-└── StatusPedido.java  // Enum de status
-```
-**Conceitos:** Enums, Collections, Relacionamentos complexos
-
-### 🧮 **Exercicio 5 - Calculadora Avançada**
-```java
-📁 Exercicio5/Calculadora/
-├── Calculator.java    // Lógica de cálculo
-└── Solver.java        // Resolução de expressões
-```
-**Conceitos:** Parsers, Expressões, Design Patterns
-
-### 🧪 **Teste 1 - Projeto POO**
-```java
-📁 Teste1/
-└── ProjetoPOO.java    // Sistema completo de POO
-```
-**Conceitos:** Programação Orientada a Objetos, Herança, Polimorfismo, Encapsulamento
-
-### 🎯 **SOLID - Princípios de Design**
-```java
-📁 solid/
-├── Main.java                    // Aplicação principal
-├── domain/
-│   ├── Order.java              // Modelo de pedido
-│   ├── OrderItem.java          // Item do pedido
-│   ├── Product.java            // Modelo de produto
-│   └── Custom.java             // Cliente
-├── payment/
-│   ├── PaymentProcessor.java   // Interface de pagamento
-│   ├── CreditCardPaymentProcessor.java
-│   ├── PixPaymentProcessor.java
-│   └── PaymentDetails.java     // Detalhes do pagamento
-├── pricing/
-│   ├── DiscountPolicy.java     // Interface de desconto
-│   ├── NoDiscount.java         // Sem desconto
-│   └── SeasonalDiscount.java   // Desconto sazonal
-├── notify/
-│   ├── MessageSender.java      // Interface de notificação
-│   ├── EmailNotifier.java      // Notificação por email
-│   ├── SmsNotifier.java        // Notificação por SMS
-│   └── ReceiptSender.java      // Envio de recibos
-├── repo/
-│   ├── OrderRepository.java    // Interface do repositório
-│   └── InMemoryOrderRepository.java
-└── service/
-    └── CheckoutService.java    // Serviço de checkout
-```
-**Conceitos:** Princípios SOLID, Clean Architecture, Dependency Inversion, Open/Closed Principle
+3.  **Compile e execute:**
+    * Para exercícios simples (sem pacotes):
+        ```bash
+        javac *.java
+        java Main
+        ```
+    * Para exercícios com pacotes (como o projeto SOLID):
+        ```bash
+        # Compile a partir da pasta 'src'
+        javac -d build src/com/example/Main.java
+        # Execute informando o caminho completo da classe principal
+        java -cp build com.example.Main
+        ```
 
 ---
 
-## 🧪 Testes & Qualidade
+## 📂 Estrutura dos Exercícios
 
-### ✅ **Estratégia de Testes**
-- **Unit Tests**: Cada classe possui testes específicos
-- **Integration Tests**: Validação de fluxos completos
-- **Edge Cases**: Tratamento de casos extremos
-- **Performance**: Benchmarks onde aplicável
+Cada exercício está contido em sua própria pasta e foca em um conjunto específico de habilidades.
+
+#### 1. 🏢 Sistema de Gerenciamento de Funcionários
+* **Descrição:** Uma aplicação CLI para gerenciar funcionários e departamentos.
+* **Conceitos:** Encapsulamento, Herança, Polimorfismo.
+    ```
+    📁 exercicio-01-funcionarios/
+    ├── Departamento.java
+    ├── Empregado.java
+    └── Main.java
+    ```
+
+#### 2. 🚗 Sistema de Gerenciamento de Veículos
+* **Descrição:** Modela diferentes tipos de veículos para demonstrar polimorfismo e abstração.
+* **Conceitos:** Abstração, Classes Abstratas, Interfaces, Composição.
+    ```
+    📁 exercicio-02-veiculos/
+    ├── Veiculo.java      (Abstrato)
+    ├── Carro.java
+    ├── Moto.java
+    └── Main.java
+    ```
+
+#### 3. 🛒 Sistema Simplificado de E-commerce
+* **Descrição:** Gerencia produtos, pedidos e status de entrega.
+* **Conceitos:** Enums, Collections Framework, Relacionamentos entre classes.
+    ```
+    📁 exercicio-03-ecommerce/
+    ├── Pedido.java
+    ├── Produto.java
+    ├── ItemPedido.java
+    └── StatusPedido.java (Enum)
+    ```
+
+#### 4. 🧮 Calculadora com Padrões de Projeto
+* **Descrição:** Implementa uma calculadora que suporta diferentes operações usando o padrão *Strategy*.
+* **Conceitos:** Padrão de Projeto (Strategy), Interfaces, Polimorfismo.
+    ```
+    📁 exercicio-04-calculadora/
+    ├── Operacao.java       (Interface Strategy)
+    ├── Adicao.java
+    ├── Subtracao.java
+    ├── Calculadora.java    (Contexto)
+    └── Main.java
+    ```
+
+#### 5. 🎯 Desafio de POO - Agência Bancária
+* **Descrição:** Um sistema mais completo que simula contas, transações e clientes de um banco.
+* **Conceitos:** Agregação, Tratamento de Exceções, Validação de regras de negócio.
+    ```
+    📁 desafio-01-banco/
+    ├── Cliente.java
+    ├── Conta.java
+    ├── ContaCorrente.java
+    ├── ContaPoupanca.java
+    └── Main.java
+    ```
+
+#### 6. ✨ Projeto com Princípios SOLID
+* **Descrição:** Um sistema de checkout de e-commerce projetado com os 5 princípios SOLID.
+* **Conceitos:** SRP, OCP, LSP, ISP, DIP, Injeção de Dependência.
+    ```
+    📁 projeto-solid-ecommerce/
+    └── src/
+        ├── com/example/
+        ├── domain/         # Entidades (Pedido, Produto)
+        ├── notification/   # Interfaces e classes de notificação
+        ├── payment/        # Interfaces e classes de pagamento
+        ├── persistence/    # Interfaces de repositório
+        ├── service/        # Lógica de negócio (CheckoutService)
+        └── Main.java
+    ```
 
 ---
 
-## 🛠️ **Tecnologias & Ferramentas**
+## 🛠️ Tecnologias e Ferramentas
 
-<div align="center">
-
-| **Categoria** | **Tecnologias** |
-|---------------|-----------------|
-| **Linguagem** | ![Java](https://img.shields.io/badge/Java_17-Features-orange) |
-| **Build** | ![Maven](https://img.shields.io/badge/Maven-3.8+-blue) ![Gradle](https://img.shields.io/badge/Gradle-7+-green) |
-| **Testes** | ![JUnit5](https://img.shields.io/badge/JUnit5-Latest-red) ![Mockito](https://img.shields.io/badge/Mockito-4+-yellow) |
-
-</div>
+| Categoria | Tecnologias |
+|:--- |:--- |
+| **Linguagem** | ![Java](https://img.shields.io/badge/Java-17+-007396?style=flat-square&logo=java&logoColor=white) |
+| **Build Tools** | ![Maven](https://img.shields.io/badge/Maven-3.8+-C71A36?style=flat-square&logo=apache-maven&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-8+-02303A?style=flat-square&logo=gradle&logoColor=white) |
+| **Testes** | ![JUnit5](https://img.shields.io/badge/JUnit-5-25A162?style=flat-square&logo=junit5&logoColor=white) ![Mockito](https://img.shields.io/badge/Mockito-5+-E91E63?style=flat-square&logo=mockito&logoColor=white) |
 
 ---
 
-## 🤝 **Como Contribuir**
+## 🤝 Como Contribuir
 
-### 📋 **Processo de Contribuição**
+Contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender e criar. Qualquer contribuição que você fizer será **muito apreciada**.
 
-1. **Fork** o projeto
-2. **Crie** uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. **Commit** suas mudanças (`git commit -m 'Add: nova funcionalidade'`)
-4. **Push** para a branch (`git push origin feature/AmazingFeature`)
-5. **Abra** um Pull Request
-
----
-
-## 📄 **Licença**
-
-Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para detalhes.
+1.  **Faça um Fork** do projeto.
+2.  Crie sua Feature Branch (`git checkout -b feature/NovaFuncionalidade`).
+3.  Faça o Commit de suas mudanças (`git commit -m 'Adiciona NovaFuncionalidade'`).
+4.  Faça o Push para a Branch (`git push origin feature/NovaFuncionalidade`).
+5.  Abra um **Pull Request**.
 
 ---
 
+## 📄 Licença
+
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
