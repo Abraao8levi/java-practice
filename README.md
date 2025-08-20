@@ -18,7 +18,7 @@ Este repositório é uma coleção organizada de exercícios em Java, projetada 
 
 | 🏗️ **Total de Projetos** | 📈 **Nível de Dificuldade** | 🎯 **Principais Conceitos** |
 |:-------------------------:|:---------------------------:|:-------------------------:|
-| **7+ (e crescendo!)** | 🟢 Iniciante → 🔴 Avançado | **OOP, SOLID, Design Patterns, Clean Code** |
+| **10+ (e crescendo!)** | 🟢 Iniciante → 🔴 Avançado | **OOP, SOLID, Collections, Exceptions** |
 
 ---
 
@@ -26,8 +26,6 @@ Este repositório é uma coleção organizada de exercícios em Java, projetada 
 
 -   ✅ **Programação Orientada a Objetos (OOP):** Encapsulamento, Herança, Polimorfismo e Abstração.
 -   ✅ **Princípios de Design:** Aplicação prática dos princípios **SOLID**.
--   ✅ **Boas Práticas:** Clean Code, organização de pacotes e padrões de nomenclatura.
--   ✅ **Padrões de Projeto (Design Patterns):** Soluções elegantes para problemas comuns.
 -   ✅ **Estruturas de Dados:** Uso eficiente de `Collections` e `Enums`.
 -   ✅ **Tratamento de Exceções:** Implementação de lógica de validação e tratamento de erros.
 
@@ -145,6 +143,41 @@ Cada exercício está contido em sua própria pasta e foca em um conjunto espec�
         ├── persistence/    # Interfaces de repositório
         ├── service/        # Lógica de negócio (CheckoutService)
         └── Main.java
+    ```
+
+#### 7. 🎪 Sistema de Parque de Diversões - Pula Pula
+* **Descrição:** Um sistema para gerenciar visitantes e filas em um parque de diversões com foco em estruturas de dados.
+* **Conceitos:** Filas, Pilhas, Listas, Gerenciamento de estado.
+    ```
+    📁 exercicio-07-pulapula/
+    └── Solver.java
+    ```
+
+#### 8. 🏪 Sistema de Gerenciamento de Budega
+* **Descrição:** Um sistema simples de gerenciamento de produtos e vendas para pequenos comércios.
+* **Conceitos:** Arrays, Classes, Métodos, Validação de entrada.
+    ```
+    📁 exercicio-08-budega/
+    └── Solver.java
+    ```
+
+#### 9. 📚 Sistema de Biblioteca - Projeto Livro
+* **Descrição:** Um sistema completo para gerenciar livros, autores e empréstimos em uma biblioteca.
+* **Conceitos:** Interfaces, Classes abstratas, Relacionamentos complexos, Herança múltipla com interfaces.
+    ```
+    📁 exercicio-06-projeto-livro/
+    ├── Livro.java
+    ├── Pessoa.java
+    ├── Publicacao.java
+    └── ProjetoLivro.java
+    ```
+
+#### 10. 🧪 Projeto de Teste - POO Básica
+* **Descrição:** Um projeto inicial para testar conceitos básicos de POO e estrutura de classes.
+* **Conceitos:** Classes, Objetos, Métodos, Atributos, Encapsulamento básico.
+    ```
+    📁 teste-01-projeto-poo/
+    └── ProjetoPOO.java
     ```
 
 ---
