@@ -161,7 +161,25 @@ Cada exercício está contido em sua própria pasta e foca em um conjunto espec�
     └── Solver.java
     ```
 
-#### 9. 📚 Sistema de Biblioteca - Projeto Livro
+#### 9. 🚌 Sistema de Gerenciamento de Transporte - Topic
+* **Descrição:** Um sistema para gerenciar passageiros em uma topic (transporte coletivo) com prioridade para idosos.
+* **Conceitos:** Listas, Collections, Gerenciamento de prioridades, Validação de dados.
+    ```
+    📁 exercicio-09-topic/
+    └── Topic/
+        └── Solver.java
+    ```
+
+#### 10. 🏥 Sistema de Prontuário Médico
+* **Descrição:** Um sistema completo para gerenciar prontuários médicos de pacientes com operações CRUD.
+* **Conceitos:** Arrays de objetos, CRUD operations, Entrada de dados, Validação.
+    ```
+    📁 teste-02-prontuario-medico/
+    ├── Paciente.java
+    └── ProntuarioMedico.java
+    ```
+
+#### 11. 📚 Sistema de Biblioteca - Projeto Livro
 * **Descrição:** Um sistema completo para gerenciar livros, autores e empréstimos em uma biblioteca.
 * **Conceitos:** Interfaces, Classes abstratas, Relacionamentos complexos, Herança múltipla com interfaces.
     ```
@@ -172,7 +190,7 @@ Cada exercício está contido em sua própria pasta e foca em um conjunto espec�
     └── ProjetoLivro.java
     ```
 
-#### 10. 🧪 Projeto de Teste - POO Básica
+#### 12. 🧪 Projeto de Teste - POO Básica
 * **Descrição:** Um projeto inicial para testar conceitos básicos de POO e estrutura de classes.
 * **Conceitos:** Classes, Objetos, Métodos, Atributos, Encapsulamento básico.
     ```
